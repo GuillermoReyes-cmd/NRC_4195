@@ -1,0 +1,157 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 5.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 0.938rem 1.25rem;
+}
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 12.5rem;
+}
+
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+
+-Menu-Horizontal li a:hover .Menu-Vertical {
+  display: block;
+}
+
+/*SECCION AUTOS*/
+
+.seccion-Autos {
+  padding: 3.75rem 1.25rem;
+  background-color: bisque;
+}
+.div-general-Auto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-Autos-texto {
+  flex: 1;
+}
+.div-Autos-texto h2 {
+  color: coral;
+  margin-bottom: 0.938rem;
+}
+.div-Autos-texto p {
+  color: black;
+  line-height: 1.6;
+  text-align: justify;
+}
+.div-Autos-img {
+flex: 1;
+}
+.div-Autos-img img {
+  width: 100%;
+  max width: 31.25rem;
+}
+
+/*SECCION SOBRE NOSOTROS*/
+
+.seccion-Nosotros {
+  padding: 3.75rem 3.75rem;
+  background-color: bisque;
+}
+
+.div-general-Nosotros{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.div-SobreNos-texto h2{
+  color: coral;
+  margin-bottom: 0.938rem;
+}
+.div-SobreNos-texto p {
+  color:black;
+  line-height: 1.6;
+  text-align: justify;
+}
+.div-SobreNoso-video iframe {
+  flex: 1;
+}
+/*SECCION FORMULARIO*/
+.Seccion-Formulario{
+  background-color:  bisque;
+  padding: 2.5rem;
+  border: 0.188rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.div-general-Contactanos{
+  background-color: white;
+  padding: 1.875rem;
+  border: 0.125rem solid black;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 31.25rem;
+}
+.campo{
+  background-color: rgb(201, 158, 158);
+  padding: 0.938rem;
+  border: 0.063rem solid black;
+  border-radius: 0.313rem;
+  margin-bottom: 0.938rem
+}
+.formulario-cliente label{
+  display: block;
+  font-weight: 37.5rem;
+  margin-bottom: 0.5rem;
+  color:black;
+}
+/*input:text-select*/
+.formulario-cliente input[type="text"],.formulario-cliente select{
+  width: 100%;
+  padding: 0.375rem;
+  border: 0.063rem solid black;
+  border-radius: 0.313rem;
+  box-sizing: border-box;
+}
+.Lista-checkbox,.Lista-radio{
+  list-style: ;
+  padding: 0.625rem;
+  margin: 0;
+  border: 0.063rem solid black;
+  background-color: white;
+}
+.formulario-cliente button{
+  background-color:antiquewhite;
+  color: black;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin: auto;
+}

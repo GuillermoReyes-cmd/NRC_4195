@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Luxury Autos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--Menu-->
+    <nav class="topheader">
+      <a href="" class="logo"
+        ><img height="90" width="300" src="img/logo.PNG" alt="" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li>
+          <a href="">Sobre Nosotros</a>
+            <ul class="Menu-Vertical">
+            <li><a href="">Ubicanos</a></li>
+            <li><a href="">Informacion</a></li>
+            <li><a href="">Clientes</a></li>
+        </li>
+      </ul>
+        <li>
+           <a href="">Autos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Premiun</a></li>
+            <li><a href="">Coupe</a></li>
+            <li><a href="">Deportivos</a></li>
+            <li><a href="">Off Road</a></li>
+            <li><a href="">Ver mas</a></li>
+        </li>
+      </ul>
+        <li><a href="">Contactanos</a></li>
+        <li><a href="">Ayudas</a></li>
+        <li><a href="">Download APP</a></li>
+      </ul>
+    </nav>
+     <!--Seccion Autos-->
+     <section class="seccion-Autos">
+        <div class="div-general-Auto">
+          <div class="div-Autos-texto">
+            <h2>seccion Autos</h2>
+            <p>
+              En el apasionante universo automovilístico, existe un segmento que destila elegancia, 
+              innovación y prestigio como ningún otro: las marcas de coches de lujo. Estas firmas no 
+              solo se dedican a fabricar vehículos excepcionales, sino que también encarnan un estilo de 
+              vida y una declaración de estatus en sí mismas.
+            </p>
+            <p>
+              A lo largo de las décadas, las marcas de coches de lujo han moldeado y redefinido la 
+              industria automotriz, estableciendo estándares inquebrantables de calidad, diseño y desempeño. 
+              En este artículo, nos sumergiremos en el fascinante mundo de estas marcas de élite, explorando 
+              su historia, filosofía de diseño, innovación tecnológica y el impacto que tienen tanto en la industria 
+              automotriz como en aquellos afortunados que tienen el privilegio de conducir sus creaciones.
+
+            </p>
+
+          </div>
+          <div class="div-Autos-img">
+            <img src="img/bmw-x6m-interior.jpg" alt="" />
+          </div>
+        </div>
+     </section>
+    <!--Seccion Sobre Nosotros-->
+    <section class="seccion-Nosotros">
+      <div class="div-general-Nosotros">
+        <div class="div-SobreNos-texto"></div>
+        <h2>Quienes somos</h2>
+        <p>
+          Somos una empresa especializada en el alquiler de autos de lujo, ofreciendo una experiencia de conducción exclusiva y 
+          sofisticada. Nuestra flota de vehículos de alta gama está pensada para eventos especiales, traslados corporativos o simplemente 
+          para disfrutar del placer de conducir un automóvil de prestigio.
+        </p>
+        <p>
+          Contamos con un equipo profesional para asegurar una experiencia de reserva sencilla y 
+          un servicio de atención al cliente personalizado, brindando seguridad y comodidad en 
+          cada trayecto. 
+        </p>
+        <div class="div-SobreNoso-video">
+          <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/1mdD6A7nu24?si=tl2TxLyEM-QxN8Nl" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+        </div>
+      </div>
+   </section>
+   <!--Seccion Contactanos-->
+  <section class="Seccion-Formulario">
+    <div class="div-general-Contactanos">
+    <h2> Contactanos </h2>
+    <p> complete todos los campos</p>
+      <form class="formulario-cliente"> 
+        <!--input/label-->
+        <div class="campo">
+          <label for="nombre">Nombres Completo</label>
+          <input type="text" id="nombre" name="nambre" placeholder="Ingrese sus nombres">
+        </div>
+        <!--lista Desplegable-->
+        <div class="campo">
+          <label for="nombre">Pais</label>
+          <select id="pais" name="pais">
+            <option value=""> seleccione Pais</option>
+            <option value="Peru">Peru</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Bolivia">Bolivia</option>
+          </select>
+        </div>
+        <!--checkbox-->
+        <div class="campo">
+          <label>Intereses:</label>
+            <ul class="Lista-checkbox">
+              <li><label><input type="checkbox" name="Intereses" value="a">SUV</label></li>
+              <li><label><input type="checkbox" name="Intereses" value="b">Coupe</label></li>
+              <li><label><input type="checkbox" name="Intereses" value="c">Limosinas</label></li>
+              <li><label><input type="checkbox" name="Intereses" value="d">OffRoad</label></li>
+              <li><label><input type="checkbox" name="Intereses" value="e">Deportivo</label></li>
+            </ul>
+        </div>
+        <!--radio-->
+        <div class="campo">
+          <label>Sexo:</label>
+          <ul class="Lista-radio">
+            <li><label><input type="radio" name="sexo" value="M">Masculino</label></li>
+            <li><label><input type="radio" name="sexo" value="F">Femenino</label></li>
+          </ul>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <!-- PIE DE PAGINA -->
+
+  <section id="footer">
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo y nombre de sitio -->
+        <div class="footer-brand">
+          <img
+            src="img/logo.PNG"
+            alt="Logo"
+            class="footer-logo"
+          />
+          <p>SENATI</p>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+
+        <!-- Enlaces legales -->
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="/Documentos/3.politica-privacidad.pdf"
+            >Política de Privacidad</a
+          >
+          <!-- Dentro de href llama a un documento pdf con la poltica-->
+          <a href="#">Términos y Condiciones</a>
+          <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+          <a href="/docu/LeyProteccionDatos.pdf">Protección de Datos</a>
+        </div>
+
+        <!-- Redes sociales con íconos personalizados -->
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+              alt="Facebook"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+              alt="Instagram"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              alt="LinkedIn"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+              alt="Twitter"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </section>
+  </body>
+</html>
